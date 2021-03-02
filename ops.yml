@@ -11,3 +11,9 @@ services:
       secrets:
         - SLACK_SIGNING_SECRET
         - SLACK_BOT_TOKEN
+    events:
+     - "github:jbottein1/bolt:push:ref==main"
+    trigger:
+     - build
+     - publish
+     - start
