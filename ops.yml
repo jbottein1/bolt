@@ -1,6 +1,6 @@
 version: "1"
 services:
-  - name: bolt-js:0.1.0
+  - name: bolt:0.1.0
     description: A bolt-js example.
     run: npm start
     port: [ '8080:8080' ]
